@@ -1,0 +1,28 @@
+{
+  "name": "crawler-xray",
+  "version": "1.0.0",
+  "description": "",
+  "main": "handler.js",
+  "scripts": {
+    "test": "node handler.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mfvodka107/crawler-xray.git"
+  },
+  "author": "giangvincent",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mfvodka107/crawler-xray/issues"
+  },
+  "homepage": "https://github.com/mfvodka107/crawler-xray#readme",
+  "devDependencies": {
+    "serverless-offline": "^4.9.1"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "serverless-http": "^1.9.1",
+    "x-ray": "^2.3.3"
+  }
+}

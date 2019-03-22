@@ -1,0 +1,19 @@
+service: x-ray-service
+
+provider:
+  name: aws
+  runtime: nodejs8.10
+  stage: dev
+  region: us-east-1
+  memorySize: 128
+
+functions:
+  xrayfunc:
+    handler: handler.handler
+    events:
+      - http:
+          path: crawl
+          method: get
+plugins:
+  - serverless-offline
+
